@@ -21,7 +21,7 @@ public class Conta {
         this.saldo = this.saldo * 1.10;
     }
     public String recuperaDadosParaImpressao() {
-        return String.format("[Agência: %d, Número: %d, Nome: %s, Data Criação: $s, Saldo: %f]", agencia, numero, nome, dataCriacao.toString(), saldo);
+        return String.format("[Agência: %d, Número: %d, Nome: %s, Data Criação: %s, Saldo: %f]", agencia, numero, nome, dataCriacao.toString(), saldo);
     }
 
     @Override
